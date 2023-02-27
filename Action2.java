@@ -19,7 +19,7 @@ public class Action2 {
 		driver.get("https://www.actitime.com/");
 		WebElement Price = driver.findElement(By.linkText("Pricing"));
 		Actions action=new Actions(driver);
-		action.moveToElement(Price, -100, 0).perform();
+		action.moveToElement(Price, -100, 0);
 	}
 
 }
